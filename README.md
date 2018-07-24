@@ -1,0 +1,1 @@
+# tsqllint-sample-plugin
