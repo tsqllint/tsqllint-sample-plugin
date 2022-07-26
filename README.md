@@ -4,7 +4,7 @@ This repo contains a sample solution and project which builds a TSQLLint plugin.
 
 ## Usage
 
-Build the plugin and pu
+Build the plugin
 
 ```
 dotnet build tsqllint-sample-plugin.sln --output /tmp/tsqllint-plugin
