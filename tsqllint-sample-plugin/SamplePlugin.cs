@@ -11,7 +11,7 @@ namespace TSQLLint.Tests.UnitTests.PluginHandler
             string line;
             var lineNumber = 0;
 
-			var reader = new StreamReader(File.OpenRead(context.FilePath));
+            using var reader = new StreamReader(File.OpenRead(context.FilePath));
 
             while ((line = reader.ReadLine()) != null)
             {
